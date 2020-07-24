@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+*:focus {
+    outline: none !important;
+}
+body {
+    background-color: #F44336;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    min-width: 640px;
+}
+.container{
+    width: 70% !important;
+}
+
+h1{
+    color: #eee;
+    margin: 15px;
+}
+#input-field{
+    width: 70%;
+}
+input {
+    width: 65% !important;
+    border-bottom-left-radius: 20px !important;
+    padding-left: 25px !important;
+
+
+}
+div>.btn {
+    background: #F44336 !important;
+    color: #eee !important;
+    font-weight: 600;
+    border: 2px solid #eee !important;
+    border-left: 0px !important;
+    padding: 0px 55px;
+    border-top-right-radius: 20px !important;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  h4{
+      color: #eee;
+      margin-bottom: 20px;
+  }
+h4 > :first-child{
+    text-align: left;
+}
+h4 button{
+    float: right;
+    margin-right: 25px;
+    padding: 5px 20px !important;
+    background-color: #eee !important;
+    color: #F44336 !important;
+    font-weight: 600 !important;
+    transition: 0.5s;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+h4 button:hover{
+    background-color: #F44336!important;
+    color:  #eee !important;
+    border: 1px solid #eee !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 50px ;
+    border-top-right-radius: 50px;
+    background: #eee;
+    align-self: center;
+  }
+
+ul li {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 18px;
+    /* transition: 0.3s;  */
+    border-bottom: 2px solid #F44336;
+    display: inline-flexbox;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-align: left
+}
+ul li span{
+    float: right;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+
+}
+ul li span button{
+background-color: #F44336 !important;
+color: #eee !important;
+font-weight: 600 !important;
+transition: 0.5s;
+border-bottom-left-radius: 20px !important;
+border-top-right-radius: 20px !important;
+margin:0px 2px;
+}
+
+ul li:hover {
+    background-color:#ddd;
+}
+ul > :first-child:hover{
+    border-top-right-radius: 50px !important;
+}
+ul > :last-child:hover{
+border-bottom-left-radius: 50px !important;
+}
+
+ul li span button:hover{
+    background-color: #eee !important;
+    color:  #F44336 !important;
+    border: 1px solid #F44336 !important;
+}
